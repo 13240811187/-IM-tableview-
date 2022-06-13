@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-ceshillj/Pods-ceshillj-resources.sh
+${PODS_ROOT}/TUIChat/TUIChat/Resources/TUIChat.bundle
+${PODS_ROOT}/TUIChat/TUIChat/Resources/TUIChatFace.bundle
+${PODS_ROOT}/TUIChat/TUIChat/Resources/TUIChatTheme.bundle
+${PODS_ROOT}/TUIContact/TUIContact/Resources/TUIContact.bundle
+${PODS_ROOT}/TUIContact/TUIContact/Resources/TUIContactTheme.bundle
+${PODS_ROOT}/TUIConversation/TUIConversation/Resources/TUIConversation.bundle
+${PODS_ROOT}/TUIConversation/TUIConversation/Resources/TUIConversationTheme.bundle
+${PODS_ROOT}/TUICore/TUICore/Resources/TUICore.bundle
+${PODS_ROOT}/TUICore/TUICore/Resources/TUICoreTheme.bundle
+${PODS_ROOT}/TUICore/TUICore/Resources/TUIKitLocalizable.bundle
+${PODS_ROOT}/TUIGroup/TUIGroup/Resources/TUIGroup.bundle
+${PODS_ROOT}/TUIGroup/TUIGroup/Resources/TUIGroupTheme.bundle

@@ -1,0 +1,15 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TXIMSDK_Plus_iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ReactiveObjC" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/TUIChat" "${PODS_ROOT}/Headers/Public/TUIContact" "${PODS_ROOT}/Headers/Public/TUIConversation" "${PODS_ROOT}/Headers/Public/TUICore" "${PODS_ROOT}/Headers/Public/TUIGroup" ${PODS_ROOT}/TXIMSDK_Plus_iOS/ImSDK_Plus.framework/Headers/
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/TUIChat" "${PODS_CONFIGURATION_BUILD_DIR}/TUIContact" "${PODS_CONFIGURATION_BUILD_DIR}/TUIConversation" "${PODS_CONFIGURATION_BUILD_DIR}/TUICore" "${PODS_CONFIGURATION_BUILD_DIR}/TUIGroup" "${PODS_ROOT}/TUIChat/TUIChat/VoiceConvert"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ReactiveObjC" -l"SDWebImage" -l"TUIChat" -l"TUIContact" -l"TUIConversation" -l"TUICore" -l"TUIGroup" -l"opencore-amrnb" -l"opencore-amrwb" -l"stdc++" -framework "Foundation" -framework "ImSDK_Plus" -framework "ImageIO"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+VALID_ARCHS = armv7 arm64 x86_64
